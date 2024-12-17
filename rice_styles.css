@@ -1,0 +1,97 @@
+/* 全体のスタイル */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0fdfd; /* ペパーミントグリーン背景 */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+    background-color: #a2d9c7; /* 濃いペパーミント色 */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* メインコンテンツ */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+/* 商品コンテナ */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 20px;
+    flex: 1;
+}
+
+.product-details h2 {
+    margin-top: 0;
+    color: #2a807e;
+}
+
+.description {
+    margin: 10px 0;
+    color: #555;
+}
+
+.price {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #d35400; /* 価格部分の強調色 */
+}
+
+/* カートボタン */
+.buy-button {
+    background-color: #2a807e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #1e6b64;
+}
+
+/* フッター */
+footer {
+    background-color: #a2d9c7;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
